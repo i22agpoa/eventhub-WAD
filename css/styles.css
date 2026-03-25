@@ -176,6 +176,37 @@ body {
   margin-top: 40px;
 }
 
+.brand-logo {
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.brand-text {
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 1.15rem;
+}
+
+.navbar-brand:hover {
+  opacity: 0.95;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #fbbf24 !important;
+}
+
+.navbar .nav-link.active {
+  color: #fbbf24 !important;
+}
+
 @media (max-width: 991px) {
   .hero-section {
     text-align: center;
