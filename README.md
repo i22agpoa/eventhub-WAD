@@ -19,6 +19,16 @@ Users can explore events, view detailed information, and interact with the platf
 
 ---
 
+## 🎯 Milestone 2 Objectives
+
+- Design a relational database schema with at least 6 tables
+- Implement the database using Entity Framework Core (code-first approach)
+- Configure and establish a connection between the application and the database
+- Generate the database using migrations
+- Implement a test MVC Controller with views using Entity Framework
+
+---
+
 ## 🌐 Website Structure
 
 The application includes the following pages:
@@ -35,9 +45,18 @@ The application includes the following pages:
 
 ## 🛠️ Technologies Used
 
+### Front-end
 - HTML5
 - CSS3
 - Bootstrap
+
+### Back-end (Milestone 2)
+- ASP.NET Core MVC
+- Entity Framework Core (Code-First)
+- SQL Server (LocalDB)
+
+### Tools
+- Visual Studio (Windows)
 - Git & GitHub for version control
 
 ---
@@ -48,7 +67,8 @@ The application includes the following pages:
 - Consistent navigation bar and footer
 - Structured layout using cards, forms, and sections
 - User-friendly interface
-- Organized file structure
+- Database integration using Entity Framework Core
+- Basic CRUD operations through MVC controllers
 
 ---
 
@@ -67,6 +87,14 @@ The application includes the following pages:
 │ └── styles.css
 │
 ├── /images
+│  
+├── /EventHubMvc (ASP.NET Core project)  
+│   ├── Controllers  
+│   ├── Models  
+│   ├── Data  
+│   ├── Views  
+│   └── Program.cs  
+
 
 
 ---
